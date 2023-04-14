@@ -1,0 +1,73 @@
+// Imports 
+
+    @import url("./style.scss");
+
+//
+
+// Variables 
+
+    $red : #ef476f;
+    $green : #06d6a0;
+    $blue : #118ab2;
+    $black : #010b14;
+    $white : #F9F7F7;
+
+//
+
+// Fonctionnement 
+
+    #fonctionnement {
+
+        width: 100%;
+        background-color: $black;
+        display: flex;
+        flex-direction: row;
+
+        #modele_3d {
+            width: 50%;
+        }
+
+        #fonctionnement_txt {
+            width: 50%;
+            display: flex;
+            margin: 5vh auto;
+            flex-direction: column;
+
+            h2 {
+                color: $blue;
+                font-size: 36px;
+                margin: 5vh 0;
+                display: flex;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            #hidden_txt {
+                
+                transition: .5s all ease-in-out;
+
+                p {
+                    font-family: 'Lato', sans-serif;
+                    color: $white;
+                    margin: 1vh 5vh 0 0;
+                    font-size: 18px;
+                    justify-content: center;
+                }
+                
+            }
+
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .active {
+        display: block;
+        justify-content: flex-start;
+    }
+
+//

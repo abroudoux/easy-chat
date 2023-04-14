@@ -1,0 +1,83 @@
+@import url("./style.scss");
+#form {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  margin: 10vh auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#form h1 {
+  font-size: 36px;
+  color: #118ab2;
+  text-align: center;
+}
+#form label {
+  margin: 3vh auto 1vh;
+  color: #010b14;
+}
+#form input {
+  border-radius: 5px;
+  padding: 1vh 1vw;
+  font-family: "Quicksand", sans-serif;
+  color: #010b14;
+}
+#form select {
+  border-radius: 5px;
+  padding: 1vh 1vw;
+  font-family: "Quicksand", sans-serif;
+  color: #010b14;
+}
+#form textarea {
+  border-radius: 5px;
+  padding: 1vh 1vw;
+  font-family: "Quicksand", sans-serif;
+  resize: none;
+  color: #010b14;
+}
+#form #submit {
+  border: none;
+  background-color: #118ab2;
+  color: #F9F7F7;
+  font-size: 18px;
+  justify-content: center;
+  font-family: "Quicksand", sans-serif;
+  margin: 5vh auto;
+  border-radius: 5px;
+  padding: 1vh 1vw;
+}
+#form #submit:hover {
+  cursor: pointer;
+}
+
+#switch #btn_switch {
+  display: flex;
+  justify-content: flex-start;
+  margin: 3vh 3vw;
+  padding: 1vh 1vw;
+  border: none;
+  border-radius: 5px;
+  background-color: #010b14;
+  border: none;
+  color: #F9F7F7;
+  animation: chargement_droite 1.5s ease-in-out;
+}
+#switch #btn_switch:hover {
+  cursor: pointer;
+  background-color: #02182c;
+}
+
+.btn-light {
+  border: 1px solid #010b14;
+  background-color: #F9F7F7;
+  color: #010b14;
+}
+
+.btn-dark {
+  border: none;
+  background-color: #010b14;
+  color: #F9F7F7;
+}
+
+/*# sourceMappingURL=form.css.map */

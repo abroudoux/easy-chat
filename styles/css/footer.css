@@ -1,0 +1,60 @@
+@import url("./style.scss");
+footer {
+  background-color: #010b14;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer .column-footer {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0;
+}
+footer #logo_footer a {
+  height: 100%;
+}
+footer #logo_footer img {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+footer #logo_footer img:hover {
+  cursor: pointer;
+  rotate: 360deg;
+  transition: 1s all;
+}
+footer #links_footer li {
+  padding: 1vh 0;
+  text-align: center;
+}
+footer #links_footer a {
+  font-size: 20px;
+}
+footer #links_footer a:hover {
+  cursor: pointer;
+  color: #139cc9;
+  transition: 0.5s all ease-in-out;
+}
+footer #rs_footer ul {
+  display: flex;
+  flex-wrap: row;
+}
+footer #rs_footer li {
+  padding: 2vh 2vw;
+}
+footer #rs_footer i {
+  transform: scale(2);
+}
+footer #rs_footer i:hover {
+  cursor: pointer;
+  color: #139cc9;
+  transition: 0.5s all ease-in-out;
+  transform: scale(2.1);
+}
+
+/*# sourceMappingURL=footer.css.map */

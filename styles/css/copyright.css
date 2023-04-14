@@ -1,0 +1,15 @@
+@import url("./style.scss");
+#copyright {
+  display: flex;
+  justify-content: center;
+  background-color: #010b14;
+}
+#copyright p {
+  padding: 5vh auto 2vh;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #F9F7F7;
+  margin: 2vh auto;
+}
+
+/*# sourceMappingURL=copyright.css.map */

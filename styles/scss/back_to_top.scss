@@ -1,0 +1,58 @@
+// Imports 
+
+    @import url("./style.scss");
+
+//
+
+// Variables 
+
+    $red : #ef476f;
+    $green : #06d6a0;
+    $blue : #118ab2;
+    $black : #010b14;
+    $white : #F9F7F7;
+
+//
+
+// Animations 
+
+    @keyframes chargement_droite {
+
+        from {
+            oppacity: 0;
+            transform: translateX(200%);
+        }
+        to {
+            oppacity: 1;
+        }
+
+    }
+
+//
+
+// Back to top
+
+    #btn_back_to_top {
+
+        position: absolute;
+        bottom : 5vh;
+        right: 5vh;
+        background-color: $blue;
+        border: none;
+        border-radius: 5px;
+        position: fixed;
+        animation: chargement_droite 1.5s ease-in-out;
+
+        i {
+            padding: 3vh 2vw;
+            color: $white;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+            transition: .5s all ease-in-out;
+        }
+        
+    }
+
+//

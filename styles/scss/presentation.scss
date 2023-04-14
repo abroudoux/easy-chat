@@ -1,0 +1,164 @@
+// Imports 
+
+    @import url("./style.scss");
+
+//
+
+// Variables 
+
+    $red : #ef476f;
+    $green : #06d6a0;
+    $blue : #118ab2;
+    $black : #010b14;
+    $white : #F9F7F7;
+
+//
+
+ // Presentation 
+
+    #presentation {
+
+        width: 100%;
+        display: flex;
+        margin: 10vh auto;
+        height: 80%;
+
+        #presentation_txt {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h2 {
+                font-family: 'Quicksand', sans-serif;
+                color: $black;
+                font-size: 26px;
+                width: 70%;
+                margin: 15vh auto 0;
+            }
+            
+            p {
+                font-family: 'Lato', sans-serif;
+                color: $black;
+                font-size: 20px;
+                width: 70%;
+                margin: 3vh auto 0;
+            }
+        }
+
+        #presentation_illus {
+            width: 50%;
+        }
+
+        #link_contact {
+            width: 30%;
+            margin: 5vh auto;
+        }
+
+        img {
+            margin: 10vh auto;
+        }
+
+        // Modal 
+
+            #overlay_modal {
+                z-index: -1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 330%;
+                background-color: rgba(49,49,49, 0);
+                transition: .3s all ease-in-out;
+            }
+            
+            #overlay_modal.open {
+                z-index: 10;
+                background-color: rgba(49,49,49, 0.6);
+            }
+            
+            #modal {
+                position: absolute;
+                z-index: -1;
+                width: 0;
+                height: 0;
+                top: 80vh;
+                left: 0;
+                transition: .3s all ease-in-out;
+                background: rgba(249, 247, 247, 0.11);
+                border-radius: 15px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(3.6px);
+                -webkit-backdrop-filter: blur(3.6px);
+                border: 1px solid rgba(249, 247, 247, 0.23);
+
+                h2 {
+                    display: flex;
+                    font-family: 'Quicksand', sans-serif;
+                    margin: 5vh auto 0;
+                    justify-content: center;
+                    color: $blue;
+                    font-size: 46px;
+                }
+
+                #offers_details {
+
+                    width: 100%;
+                    color: $white;
+                    display: flex;
+                    flex-direction: row;
+                    margin: 5vh auto;
+                    justify-content: center;
+
+                    .offer {
+
+                        width: 50%;
+                        justify-content: center;
+                        margin: 0 auto;
+                        display: flex;
+                        flex-direction: column;
+
+                        h3 {
+                            font-size: 40px;
+                            margin: 3vh auto;
+                        }
+
+                        ul  {
+                            margin: 5vh auto 0;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            font-family: 'Lato', sans-serif;
+
+                            li {
+                                list-style: inside;
+                                font-size: 20px;
+                            }
+
+                        }
+
+                        p {
+                            font-size: 28px;
+                            margin: 5vh auto 0;
+                            color: $red;
+                        }
+
+                    }
+
+                }
+
+            }
+            
+            #modal.open {
+                z-index: 11;
+                margin-top: 10%;
+                margin-left: 10%;
+                width: 80%;
+                height: 80%;
+            }
+
+        //
+
+    }
+
+//

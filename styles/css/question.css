@@ -1,0 +1,41 @@
+@import url("./style.scss");
+.btn, #question #question_txt #btn_contact {
+  border: 2px solid #118ab2;
+  border-radius: 10px;
+  padding: 1vh 1vw;
+  color: #118ab2;
+  font-size: 18px;
+}
+.btn:hover, #question #question_txt #btn_contact:hover {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover i, #question #question_txt #btn_contact:hover i {
+  transform: translateX(3px);
+  transition: 0.5s ease-in-out;
+}
+
+#question #question_txt {
+  margin: 10vh auto;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+}
+#question #question_txt h2 {
+  color: #118ab2;
+  font-size: 38px;
+  padding: 0 40vw;
+}
+#question #question_txt p {
+  font-size: 18px;
+  padding: 0 30vw;
+}
+#question #question_txt #btn_contact {
+  margin: 3vh auto;
+  width: 10%;
+}
+
+/*# sourceMappingURL=question.css.map */
