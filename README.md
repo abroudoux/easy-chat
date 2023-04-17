@@ -1,0 +1,12 @@
+# EasyChat
+
+EasyChat is a school exam project where I had to imagine a fictional product and make supports as part of its release. I created EasyChat, a virtual assistant generate by an IA  that works locally. I created a simple website with a Landing page and a Contact page, to describe and present my product.
+The restrictions were :
+- Use HTML/CSS
+- Use JavaScript
+- Use PHP
+
+## Development
+
+I decided to use SCSS, a CSS preprocessor which allow me to save time for the rest of my project.
+I also launched another challenge: connecting the data collected by my form in a MySQl database. 
