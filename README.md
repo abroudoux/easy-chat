@@ -1,6 +1,6 @@
 # EasyChat
 
-EasyChat is a school exam project where I had to imagine a fictional product and make supports as part of its release. I created EasyChat, a virtual assistant generate by an IA  that works locally. I created a simple website with a Landing page and a Contact page, to describe and present my product.
+EasyChat is a school exam project where I had to imagine a fictional product and make supports as part of its release. I created EasyChat, a virtual assistant generate by an IA  that works locally. I created a website consisting of a Landing page and a Contact page.
 The restrictions were :
 - Use HTML/CSS
 - Use JavaScript
