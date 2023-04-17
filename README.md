@@ -9,4 +9,4 @@ The restrictions were :
 ## Development
 
 I decided to use SCSS, a CSS preprocessor which allow me to save time for the rest of my project.
-I also launched another challenge: connecting the data collected by my form in a MySQl database. 
+I also gave myself another challenge: connecting the info collected by my form in a MySQl database. 
